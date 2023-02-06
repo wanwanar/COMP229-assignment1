@@ -1,5 +1,5 @@
 {
-  "name": "WanWan COMP229 - Assignment 1 - Express Portfolio",
+  "name": "WanWanCOMP229-Assignment1-ExpressPortfolio",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -28,6 +28,6 @@
     "url": "git+https://github.com/wanwanar/COMP229-assignment1.git"
   },
   "author": "Wan Wan",
-  "license": ""
+  "license": "ISC"
 
 }
