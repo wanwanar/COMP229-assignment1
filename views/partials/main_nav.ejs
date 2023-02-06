@@ -1,6 +1,9 @@
 <!-- Main Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="/">COMP229</a>
+  <nav class="navbar navbar-expand-lg navbar-custom">
+
+    <img class = "MWlogo" src="/Assets\images/Logo-MW.jpg" width="100"/>
+    <a class="navbar-brand" href="/">Wan Wan Melody's profile</a>
+    
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -13,7 +16,7 @@
         <% } else  { %>
         <li class="nav-item">
         <% } %>
-          <a class="nav-link" href="/home"><i class="fas fa-lg fa-laptop-house"></i> Home </a>
+          <a class="nav-link" href="/home"><i class="fa-sharp fa-solid fa-house-user"></i> Home </a>
         </li>
 
         <% if (title == "About") { %>
@@ -21,15 +24,15 @@
         <% } else  { %>
         <li class="nav-item">
         <% } %>
-          <a class="nav-link" href="/about"><i class="fas fa-info-circle"></i> About </a>
+          <a class="nav-link" href="/about"><i class="fa-regular fa-face-meh-blank"></i> About Me </a>
         </li>
 
-        <% if (title == "Products") { %>
+        <% if (title == "Projects") { %>
         <li class="nav-item active">
         <% } else  { %>
         <li class="nav-item">
         <% } %>
-          <a class="nav-link" href="/products"><i class="fab fa-elementor"></i> Products </a>
+          <a class="nav-link" href="/projects"><i class="fa-solid fa-list-check"></i> Projects </a>
         </li>
 
         <% if (title == "Services") { %>
@@ -37,7 +40,7 @@
         <% } else  { %>
         <li class="nav-item">
         <% } %>
-          <a class="nav-link" href="/services"><i class="fas fa-cogs"></i> Services </a>
+          <a class="nav-link" href="/services"><i class="fa-solid fa-hand"></i></i> Services </a>
         </li>
 
         <% if (title == "Contact") { %>
@@ -45,7 +48,7 @@
         <% } else  { %>
         <li class="nav-item">
         <% } %>
-          <a class="nav-link" href="/contact"><i class="fas fa-mobile-alt"></i> Contact </a>
+          <a class="nav-link" href="/contact"><i class="fa-solid fa-id-card"></i> Contact </a>
         </li>
     </div>
   </nav>

@@ -1,1 +1,33 @@
+/*File name: app.css, Student Name: Wan Wan, Student ID: 301326973, Date: 4th Feb 2023*/
+
 /* custom css goes here */
+
+/* Modify the background color */
+body {
+    color:rgb(22, 84, 99);
+    margin-left: 50px
+}
+
+/* navbar style */
+.navbar-custom {
+    background-color: rgb(117, 170, 158);
+    margin-left: -50px
+}
+
+.navbar-custom2 {
+    background-color: rgb(117, 170, 158);
+}
+/* Modify brand and text color */
+         
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text,
+.nav-link,
+.nav-item {
+    color: rgb(64, 67, 64);
+}
+
+.MWlogo {
+    border-radius: 30px;
+    margin-right: 10px;
+}
+
